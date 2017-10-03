@@ -2,7 +2,6 @@ float [] xPos = new float [50];
 float [] yPos = new float [50];
 float [] xMove = new float [50];
 float [] yMove = new float [50];
-float [] transparency = new float [50];
 int i = 0;
 
 
