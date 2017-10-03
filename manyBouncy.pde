@@ -8,8 +8,6 @@ int i = 0;
 void setup(){
  size (500,500);
  smooth();
- strokeWeight(0.001);
-
  
  for(int i=0; i<50; i++) {
    xPos [i] = random (0,500);
@@ -17,7 +15,6 @@ void setup(){
    xMove [i] = random (-8,8);
    yMove [i] = random (-8,8);
  }
- smooth();
 }
 
 void draw(){
