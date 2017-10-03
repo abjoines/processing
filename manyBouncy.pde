@@ -2,6 +2,7 @@ float [] xPos = new float [50];
 float [] yPos = new float [50];
 float [] xMove = new float [50];
 float [] yMove = new float [50];
+float [] transparency = new float [50];
 int i = 0;
 
 
@@ -21,7 +22,7 @@ void draw(){
   background(0);
   //made a cool background but its commented out because it makes the circles super slow 
   //SO un-comment to see!!
-  /*stroke(0,50, 255);
+  /*stroke(0,50,255);
   strokeWeight(0.001);
   for(int x = 10; x<=width; x += 30) {
     for(int y = 10; y <=height; y +=30) {
@@ -37,9 +38,9 @@ void draw(){
     }
   }*/
   
-  fill(0);
-  stroke(#95F9F6);
-  strokeWeight(0.75);
+  fill(0,0);
+  stroke(255);
+  strokeWeight(0.7);
     
   for (int i = 0; i<50; i++){
     ellipse(xPos [i], yPos [i], 30,30);
@@ -56,7 +57,7 @@ void draw(){
     yMove [i] *= -1;
   }
 }
+  fill(255);
   rectMode(CENTER);
   rect(width/2, height/2, 60,60);
-
 }
