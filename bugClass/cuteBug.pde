@@ -1,9 +1,4 @@
 Bug[] allthebugs = new Bug[5];
-float [] xTop = new float[20];
-float [] yTop = new float[20];
-float [] xLeft = new float[20];
-float [] yBottom = new float[20];
-float [] xRight = new float[20];
 
 
 void setup() {
