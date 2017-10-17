@@ -47,13 +47,6 @@ void draw() {
       if (keyCode == 40) {
         yPos++;
       }
-      /*if (keyCode == 16) {
-        fill(255);
-        stroke(0, 100);
-      } else {
-        fill(0);
-        stroke(0);
-      }*/
     }
   }
 }
