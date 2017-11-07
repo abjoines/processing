@@ -11,7 +11,6 @@ void setup() {
   size(300,500);
   //size(5000, 7000, PDF, "testPDF6.pdf");
   background(#11AFC8);
-  frameRate(9000);
 }
 
 void draw() {
