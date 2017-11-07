@@ -2,16 +2,16 @@ import processing.pdf.*;
 
 float countUpX = 0;
 float countUpY = 0;
-float w = 400;
-float h = 200;
-//float w = 40;
-//float h = 20;
+//float w = 400;
+//float h = 200;
+float w = 40;
+float h = 20;
 float sizeOfArc = 10;
 int A = 35;
 
 void setup() {
-  size(5000, 7000, PDF, "NEWprototype3_3_test3.pdf");
-  //size(300,500);
+  //size(5000, 7000, PDF, "NEWprototype3_3_test3.pdf");
+  size(300,500);
 
   background(0);
   rectMode(CENTER);
@@ -46,9 +46,7 @@ void draw() {
 
   sizeOfArc += sizeOfArc * 0.1;
 
-  //sizeOfArc += 1.5;
-
-  if (frameCount == 4000) {
-    exit();
-  }
+  //if (frameCount == 4000) {
+  //  exit();
+  //}
 }
