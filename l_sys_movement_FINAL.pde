@@ -20,8 +20,6 @@ void setup() {
 }
 
 void draw() {
-  frameRate(100);
-  //background(0);
   
   //angle of left branch
   float a = lerp(0,60, lerpAmount);
