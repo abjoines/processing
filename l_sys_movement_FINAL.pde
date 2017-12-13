@@ -137,6 +137,9 @@ void branch(float h) {
     popMatrix();
   }
   
+  if(n>2.3){
+  n = 0.05;
+  }
 
 }
 void mouseClicked() {
